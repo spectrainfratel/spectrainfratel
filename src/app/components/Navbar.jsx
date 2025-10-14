@@ -1,42 +1,94 @@
-"use client"
-import React, { useState } from 'react'
-import logo from '@/assets/logoBG.png'
-import Image from 'next/image'
-import Link from 'next/link'
+// src/app/components/Navbar.jsx (or wherever your Navbar is)
+"use client";
 
-function Navbar() {
-    // state to check if image is loaded
-    const [isLoaded, setIsLoaded] = useState(false)
+import React from 'react';
+import Image from 'next/image';
+// Import Radix primitives styled by Shadcn
+import {
+    NavigationMenu,
+    NavigationMenuItem,
+    NavigationMenuLink,
+    NavigationMenuList,
+    NavigationMenuTrigger,
+    NavigationMenuContent,
+} from "@/components/ui/navigation-menu";
+
+// Import the mobile sidebar (Sheet) and the icon (Menu)
+import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from 'lucide-react';
+
+// Define your navigation links
+const navLinks = [
+    { title: "Home", href: "/" },
+    { title: "About", href: "/about" },
+    { title: "Services", href: "/services" },
+    { title: "Contact", href: "/contact" },
+];
+
+export default function Navbar() {
+    // ... JSX goes here
     return (
-        <div className="w-full h-full bg-gray-800 text-white flex items-center justify-start px-7 py-4 space-x-7">
-            <div className="brand-logo">
-                {/* Skeleton Loader */}
-                {!isLoaded && (
-                    <div className="h-10 w-10 mr-2 bg-gray-700 rounded animate-pulse" />
-                )}
+        <header className="w-full border-b bg-[#001020] shadow-sm text-white">
+            <div className=" flex w-full  h-full items-center justify-between px-7">
 
-                {/* Image */}
-                <div className="image-div w-20 h-15">
-                    <Link href='/'>
-                        <Image
-                            src={logo}
-                            alt="logo"
-                            className={`h-full w-full object-contain mr-2 transition-opacity duration-300 ${isLoaded ? "opacity-100" : "opacity-0"
-                                }`}
-                            onLoad={() => setIsLoaded(true)}
-                        />
-                    </Link>
+                {/* LOGO/TITLE (Always visible) */}
+                <a href="/" className="text-xl font-bold">
+                    {/* load the logo here */}
+                    <Image
+                        src="/assets/logo.png" // Path to your logo image
+                        alt="Logo"
+                        width={80} // Adjust width as needed
+                        height={40} // Adjust height as needed
+                        className="object-contain"
+                    />
+                </a>
+
+                {/* 1. DESKTOP NAVIGATION (Hidden on mobile) */}
+                <div className="hidden md:flex">
+                    <NavigationMenu>
+                        <NavigationMenuList>
+                            {navLinks.map((link) => (
+                                <NavigationMenuItem key={link.title}>
+                                    <NavigationMenuLink href={link.href} className="p-3 hover:underline">
+                                        {link.title}
+                                    </NavigationMenuLink>
+                                </NavigationMenuItem>
+                            ))}
+                        </NavigationMenuList>
+                    </NavigationMenu>
                 </div>
-            </div>
-            <div className="nav-items flex space-x-7">
-                <Link href='/'>Home</Link>
-                <Link href='/about'>About</Link>
-                <Link href='/portfolio'>Portfolio</Link>
-                <Link href='/career'>Career</Link>
-                <Link href='/contact'>Contact</Link>
-            </div>
-        </div>
-    )
-}
 
-export default Navbar;
+                {/* 2. MOBILE SIDEBAR (Hidden on desktop) */}
+                <div className="md:hidden">
+                    <Sheet>
+                        <SheetTrigger asChild>
+                            {/* This button shows the menu icon and opens the sheet */}
+                            <button className="p-2">
+                                <Menu className="h-6 w-6" />
+                            </button>
+                        </SheetTrigger>
+
+                        <SheetContent side="right"> {/* Sidebar slides in from the right */}
+                            <SheetHeader>
+                                <div className="text-lg font-semibold">Menu</div>
+                            </SheetHeader>
+
+                            <nav className="flex flex-col gap-2 pt-4">
+                                {navLinks.map((link) => (
+                                    <a
+                                        key={link.title}
+                                        href={link.href}
+                                        className="p-2 hover:bg-gray-100 rounded-md"
+                                    >
+                                        {link.title}
+                                    </a>
+                                ))}
+                            </nav>
+                        </SheetContent>
+                    </Sheet>
+                </div>
+
+            </div>
+        </header>
+    );
+}
