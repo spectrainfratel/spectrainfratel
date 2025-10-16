@@ -42,7 +42,7 @@ export default function CEO() {
                 </div>
                 <div className="why-hire-spectra flex flex-col gap-10 text-center bg-[#001020] text-white px-7 py-20">
                     <h4 className='text-2xl md:text-3xl lg:text-4xl font-bold'>Why Hire Spectra Infratel</h4>
-                    <p className='text-lg md:text-xs lg:text-lg italic'>
+                    <p className='text-lg md:text-xs lg:text-lg text-gray-600 italic'>
                         We simplify complex projects by handling every stage ourselves—from legal clearances
                         (Site Acquisition and Right of Way) to the final activation of electronics
                         (BTS Commissioning). This single-point-of-contact approach eliminates coordination
