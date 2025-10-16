@@ -19,7 +19,7 @@ export default function CEO() {
     }
 
     return (
-        <div className='text-black p-7 w-full h-full'>
+        <div className='p-7 w-full h-full'>
             <div className="inner">
                 <div
                     className="ceo-space  h-full bg-[url('/assets/ceobg.jpg')] bg-cover bg-center flex items-end justify-center"
