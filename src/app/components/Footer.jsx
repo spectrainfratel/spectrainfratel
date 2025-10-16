@@ -1,8 +1,21 @@
-import React from "react"
+"use client"
+import React, {useState} from "react"
 import { Separator } from "@/components/ui/separator"
 import Link from "next/link"
+import { Button} from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 
 export default function Footer() {
+
+  // hold the email data from the input field and send it to a google spreadsheet
+  const [email, setEmail] = useState('');
+  const handleSubscribe = () => {
+    // Add your subscription logic here
+    console.log(`Subscribed with email: ${email}`);
+    setEmail('');
+    // TO-DO: Integrate with google spreadsheet app scripts to store email in the sheet
+  }
+
   return (
     <footer className="w-full bg-gray-900 text-gray-300">
       <div className="container mx-auto px-6 py-10">
@@ -13,6 +26,19 @@ export default function Footer() {
             <p className="text-sm text-gray-400">
               Building the future with precision and passion.
             </p>
+            <div className="mt-4 mb-2 flex border">
+              {/* the input for the email will be taken from here */}
+              <Input
+                type="email"
+                placeholder="Your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="flex-grow rounded-l-md border-0 focus:ring-0"
+              />
+              <Button onClick={handleSubscribe} className="rounded-r-md">
+                Subscribe
+              </Button>
+            </div>
           </div>
 
           {/* Column 2 */}
