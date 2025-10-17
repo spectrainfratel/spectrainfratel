@@ -35,7 +35,7 @@ export default function Footer() {
                 onChange={(e) => setEmail(e.target.value)}
                 className="flex-grow rounded-l-md border-0 focus:ring-0"
               />
-              <Button onClick={handleSubscribe} className="rounded-r-md">
+              <Button onClick={handleSubscribe}>
                 Subscribe
               </Button>
             </div>

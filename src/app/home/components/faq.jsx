@@ -15,7 +15,7 @@ export default function FAQ() {
     return (
         <div className='p-7 w-full h-auto lg:h-[80vh] flex flex-col md:flex-row gap-10'>
             <div className="left-side flex flex-col gap-7 items-start justify-center w-full md:w-1/2">
-                <h2 className='text-4xl md:text-5xl lg:text-6xl font-bold'>Any Questions? Let's Talk</h2>
+                <h2 className='text-4xl md:text-5xl lg:text-6xl font-bold'>Any Questions? <br/> Let's Talk</h2>
                 <p className='text-base md:text-lg lg:text-xl'>Don't let the complexity of modern network deployment slow you down.</p>
             </div>
             {/* Interactive client component */}
