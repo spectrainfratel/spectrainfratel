@@ -53,13 +53,13 @@ export default function Works() {
         </h1>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-6 p-5">
           {works.map((work, index) => (
             <div
               key={index}
               className="flex flex-col gap-5 items-center justify-centeroverflow-hidden"
             >
-              <div className="bg-[#146CBB1A] w-full h-full px-10 p-5 relative flex items-center justify-center rounded-xl">
+              <div className="bg-[#146CBB1A] w-full h-full px-10 p-5 relative flex items-center justify-center">
                 <Image
                   src={work.img}
                   alt={`work ${index}`}
