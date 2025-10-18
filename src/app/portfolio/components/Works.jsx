@@ -47,7 +47,7 @@ export default function Works() {
   return (
     <div className="p-5">
       <div className="flex flex-row items-center gap-3 md:gap-5 mb-6 md:mb-8">
-        <div className="h-12 lg:h-40 md:h-16 w-1 bg-gradient-to-t from-[#0D50A7] to-[#02C5FD]" />
+        <div className="md:h-24 sm:h-10 h-16 lg:h-40  w-1 bg-gradient-to-t from-[#0D50A7] to-[#02C5FD]" />
         <h1 className="text-3xl md:text-5xl lg:text-7xl font-extrabold max-w-2xl">
           Premium works for premium users
         </h1>
@@ -69,7 +69,7 @@ export default function Works() {
                 />
               </div>
 
-              <div className=" w-full pl-7">
+              <div className=" w-full">
                 <h2 className="text-2xl font-semibold">Site - {work.site}</h2>
                 <p className="text-sm">Project Time - {work.time}</p>
               </div>
