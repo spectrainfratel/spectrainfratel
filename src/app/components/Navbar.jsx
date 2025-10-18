@@ -33,7 +33,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-[#001020] text-white shadow-sm">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center" legacyBehavior>
           <Image
             src="/assets/logo.png"
             alt="Logo"
@@ -79,7 +79,7 @@ export default function Navbar() {
               className="w-full max-w-xs bg-[#001020] text-white border-l-0"
             >
               <SheetHeader>
-                <Link href="/" className="flex items-center">
+                <Link href="/" className="flex items-center" legacyBehavior>
                   <Image
                     src="/assets/logo.png"
                     alt="Logo"
@@ -100,6 +100,7 @@ export default function Navbar() {
                         ? "bg-white/20 text-white"
                         : "text-gray-300"
                     )}
+                    legacyBehavior
                   >
                     {link.title}
                   </Link>
