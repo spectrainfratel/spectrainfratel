@@ -23,7 +23,7 @@ export default function Notfound() {
               <h2>Page Not Found</h2>
             </div>
           </div>
-          <div className="text-white text-2xl font-extrabold  max-w-xl">
+          <div className="text-white text-2xl font-extrabold  max-w-96">
             <p className=" ">
               It’s a tough world. Wondering here and there is not a good idea
             </p>
