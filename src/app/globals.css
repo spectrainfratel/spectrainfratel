@@ -1,6 +1,7 @@
 /* Import Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 @import "tailwindcss";
 
@@ -10,9 +11,9 @@
 
 /* Custom Global Styles */
 :root {
-  --font-nanum: 'Nanum Myeongjo', serif;
+  --font-nanum: "Nanum Myeongjo", serif;
   --primary-color: #001020;
-  --secondary-color: #50E3C2;
+  --secondary-color: #50e3c2;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -47,13 +48,29 @@
   --chart-5: oklch(0.769 0.188 70.08);
 }
 
+.lora {
+  font-family: "Lora", serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
   font-family: var(--font-nanum);
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: var(--font-nanum);
+}
+
+.gradienttext {
+  background: -webkit-linear-gradient(#0d50a7, #02c5fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .dark {
@@ -136,4 +153,27 @@ h1, h2, h3, h4, h5, h6, p {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  @apply bg-gray-200 rounded-lg;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  @apply bg-[#0D50A7] rounded-lg;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#02C5FD];
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #0D50A7 #e5e7eb;
 }

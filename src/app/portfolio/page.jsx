@@ -1,10 +1,10 @@
 import React from "react";
-import AboutPage from "./components/AboutPage";
+import PortfolioPage from "./components/PortfolioPage";
 
 export default function page() {
   return (
     <div>
-      <AboutPage />
+      <PortfolioPage />
     </div>
   );
 }
