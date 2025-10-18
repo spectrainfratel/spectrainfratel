@@ -14,7 +14,7 @@ export default function Banner() {
                     We engineer the next generation of physical infrastructure—from fiber optics to 5G towers—to deliver the world's most reliable and advanced connectivity.
                 </p>
                 {/* this is the button */}
-                <Link href="/contact" className="w-fit">
+                <Link href="/contact" className="w-fit" legacyBehavior>
                     <div className="border border-white rounded-3xl flex w-auto gap-3 items-center hover:bg-white hover:text-[#001020] transition-colors cursor-pointer">
                         <span className="px-5 py-3">Find out more</span>
                         <div className="icon-div bg-white px-5 py-3 rounded-r-3xl">
