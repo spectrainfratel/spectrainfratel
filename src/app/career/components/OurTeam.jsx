@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react"; // For location icon
+import { MapPin } from "lucide-react";
 import React from "react";
 
 const positions = [
@@ -30,14 +30,17 @@ const positions = [
 
 export default function OurTeam() {
   return (
-    <div className=" bg-[#e9f2fb] py-8 flex flex-col items-center">
-      <h1 className="text-2xl md:text-3xl font-serif font-semibold my-4 text-black text-center">
+    <div className="bg-[#e9f2fb] py-10 px-4 sm:px-8 lg:px-16 flex flex-col items-center">
+      <h1 className="text-2xl md:text-3xl font-serif font-bold my-4 text-black text-center">
         Join our growing team
       </h1>
-      <div className="min-w-9/10 max-w-3xl">
+      <div className="w-full max-w-3xl">
         {positions.map((pos, idx) => (
-          <div key={idx} className="py-12 border-b border-gray-300 grid grid-cols-3 gap-12">
-            <div className="flex flex-col items-center gap-2 mb-1">
+          <div
+            key={idx}
+            className="py-10 border-b border-gray-300 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-10"
+          >
+            <div className="flex flex-col items-center sm:items-start gap-2 mb-1">
               <span className="text-[#0D50A7] font-semibold cursor-pointer hover:underline text-base sm:text-lg">
                 Open Positions
               </span>
@@ -46,7 +49,7 @@ export default function OurTeam() {
                 {pos.location}
               </span>
             </div>
-            <div className="col-span-2 flex flex-col gap-4">
+            <div className="sm:col-span-2 flex flex-col gap-4 text-center sm:text-left">
               <div className="font-medium text-black text-base sm:text-lg">
                 {pos.title}
               </div>
