@@ -6,9 +6,7 @@ import Home from './home/page';
 function page() {
   return (
     <>
-     <Navbar /> 
      <Home/>
-     <Footer/>
     </>
   )
 }
