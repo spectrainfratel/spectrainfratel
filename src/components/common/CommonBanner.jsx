@@ -30,21 +30,13 @@ export default function CommonBanner({
         </Link>
         {/* the button ends here */}
       </div>
-      <div className="right-banner hidden absolute w-1/2 h-[1200px] bg-[#D7E9C9] right-[-100px] top-0 -skew-x-20 sm:hidden md:hidden lg:block"></div>
-      <div className="absolute hidden sm:hidden md:hidden lg:block right-60 bottom-[-80px] h-auto lg:h-[200px] lg:top-[100px] lg:right-[200px]">
-        <Image
-          src={"/assets/tower.png"}
-          alt="Banner Image"
-          width={700}
-          height={600}
-        />
-      </div>
-      <div className="absolute hidden sm:hidden md:hidden lg:block right-0 bottom-[-200px] h-auto lg:h-[200px] lg:top-[0px] lg:right-[-100px]">
+      {/* Revamped Image Container */}
+      <div className="absolute -top-1/4 -right-1/4 w-[600px] h-[600px] md:w-[800px] md:h-[800px] lg:w-[1000px] lg:h-[1000px]  rotate-[80deg] transition-all duration-500">
         <Image
           src={imgsrc || "/assets/human.png"}
           alt="Tower Image"
-          width={700}
-          height={600}
+          fill
+          className="object-cover"
         />
       </div>
     </div>
