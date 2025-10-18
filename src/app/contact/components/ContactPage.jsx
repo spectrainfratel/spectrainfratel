@@ -53,14 +53,21 @@ export default function ContactPage() {
                 >
                   Name
                 </label>
-                <input type="text" id="name" value={formData.name}
-                  onChange={handleChange} className="w-full px-4 py-2 bg-white text-black border border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-none" required />
+                <input
+                  type="text"
+                  id="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="w-full px-4 py-2 bg-white text-black border border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-none"
+                  required
+                />
               </div>
 
               <div>
                 <label
                   htmlFor="phone"
-                  className="block mb-2 text-sm font-medium text-gray-300" >
+                  className="block mb-2 text-sm font-medium text-gray-300"
+                >
                   Phone Number
                 </label>
                 <input
@@ -95,13 +102,18 @@ export default function ContactPage() {
               <div>
                 <label
                   htmlFor="subject"
-                  className="block mb-2 text-sm font-medium text-gray-300">
+                  className="block mb-2 text-sm font-medium text-gray-300"
+                >
                   Subject
                 </label>
                 <input
-                  type="text" id="subject" value={formData.subject} onChange={handleChange}
+                  type="text"
+                  id="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                   className="w-full px-4 py-2 bg-white text-black border border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-none"
-                  required/>
+                  required
+                />
               </div>
             </div>
 
@@ -113,7 +125,8 @@ export default function ContactPage() {
                 Message
               </label>
               <textarea
-                id="message" value={formData.message}
+                id="message"
+                value={formData.message}
                 onChange={handleChange}
                 rows="4"
                 className="w-full px-4 py-2 bg-white text-black border border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-none"

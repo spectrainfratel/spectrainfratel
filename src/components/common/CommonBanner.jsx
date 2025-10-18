@@ -20,7 +20,7 @@ export default function CommonBanner({
           {description}
         </p>
         {/* this is the button */}
-        <Link href={buttonLink} className="w-fit" legacyBehavior>
+        <Link href={buttonLink} className="w-fit">
           <div className="border border-white rounded-3xl flex w-auto gap-3 items-center hover:bg-white hover:text-[#001020] transition-colors cursor-pointer">
             <span className="px-5 py-3">{buttonText}</span>
             <div className="icon-div bg-white px-5 py-3 rounded-r-3xl">
