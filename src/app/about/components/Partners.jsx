@@ -96,7 +96,7 @@ export default function Partners() {
         </div>
 
         {/* Carousel with vertical orientation */}
-        <div className="relative px-16">
+        <div className="relative lg:px-16 px-5">
           <Carousel
             setApi={setApi} // Get the API instance
             opts={{
@@ -106,6 +106,12 @@ export default function Partners() {
             orientation="horizontal"
             className="w-full"
           >
+            {/* Mobile: Buttons on top */}
+            <div className="flex md:hidden justify-between gap-4 mb-4">
+              <CarouselPrevious className="static translate-y-0" />
+              <CarouselNext className="static translate-y-0" />
+            </div>
+            
             <CarouselContent className="-mt-4">
               {partners.map((partner, index) => (
                 <CarouselItem
@@ -132,8 +138,12 @@ export default function Partners() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            
+            {/* Desktop: Buttons on sides */}
+            <div className="hidden md:block">
+              <CarouselPrevious />
+              <CarouselNext />
+            </div>
           </Carousel>
 
           {/* Dot Indicators */}
