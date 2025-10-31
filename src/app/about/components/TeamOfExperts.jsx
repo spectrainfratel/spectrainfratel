@@ -6,22 +6,22 @@ export default function TeamOfExperts() {
     {
       name: "Jignesh Patel",
       designation: "CEO",
-      img: "/assets/aboutPage/patners/JigneshPatel.jpg",
+      img: "/assets/Jitesh.jpg",
     },
-    {
-      name: "Bhargav Patel",
-      designation: "Partner",
-      img: "/assets/aboutPage/patners/BhargavPatel.jpg",
-    },
+    // {
+    //   name: "Bhargav Patel",
+    //   designation: "Partner",
+    //   img: "/assets/aboutPage/patners/BhargavPatel.jpg",
+    // },
     {
       name: "Prayosha Patel",
       designation: "Partner",
-      img: "/assets/aboutPage/patners/PrayoshaPatel.jpg",
+      img: "/assets/aboutPage/patners/prayoshi.jpg",
     },
     {
       name: "Raju Mudaliar",
       designation: "Supply and Collection",
-      img: "/assets/aboutPage/patners/RajuMudaliar.jpg",
+      img: "/assets/aboutPage/patners/raju.jpg",
     },
   ];
 

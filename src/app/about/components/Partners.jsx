@@ -16,40 +16,40 @@ const partners = [
       "We happy with Bhargav and his team for the promptness... keep it up",
   },
   {
-    name: "Michael Thompson",
+    name: "Polycot Yarn spinning mills pvt ltd",
     comment:
-      "Working with this team has been a transformative experience. Their attention to detail and commitment to quality is unmatched. Every project has been delivered on time and has exceeded our expectations. I wholeheartedly endorse their services to anyone in need of expertise.",
+      "Good Work"
   },
   {
-    name: "Ava Patel",
+    name: "Radhika Infracon LLP",
     comment:
-      "From start to finish, the professionalism and skill demonstrated by this team were nothing short of impressive. They have a remarkable ability to adapt to challenges and deliver solutions that truly meet our needs. I will definitely be collaborating with them again in the future.",
+      "Always happy to help and completed projects on time",
   },
-  {
-    name: "Liam Chen",
-    comment:
-      "The level of service and dedication from this team is extraordinary. They take the time to understand our requirements and ensure that every aspect is covered. Their work has significantly improved our operations, and I am grateful for their contributions.",
-  },
-  {
-    name: "Priay Singhania",
-    comment:
-      "The team has done an excellent job, in helping us set our fiber station at every place we wanted and with perfection. They are the best in what they do, and there is no doubt they will achieve a lot. I highly recommend anyone to hire them.",
-  },
-  {
-    name: "Michael Thompson",
-    comment:
-      "Working with this team has been a transformative experience. Their attention to detail and commitment to quality is unmatched. Every project has been delivered on time and has exceeded our expectations. I wholeheartedly endorse their services to anyone in need of expertise.",
-  },
-  {
-    name: "Ava Patel",
-    comment:
-      "From start to finish, the professionalism and skill demonstrated by this team were nothing short of impressive. They have a remarkable ability to adapt to challenges and deliver solutions that truly meet our needs. I will definitely be collaborating with them again in the future.",
-  },
-  {
-    name: "Liam Chen",
-    comment:
-      "The level of service and dedication from this team is extraordinary. They take the time to understand our requirements and ensure that every aspect is covered. Their work has significantly improved our operations, and I am grateful for their contributions.",
-  },
+  // {
+  //   name: "Liam Chen",
+  //   comment:
+  //     "The level of service and dedication from this team is extraordinary. They take the time to understand our requirements and ensure that every aspect is covered. Their work has significantly improved our operations, and I am grateful for their contributions.",
+  // },
+  // {
+  //   name: "Priay Singhania",
+  //   comment:
+  //     "The team has done an excellent job, in helping us set our fiber station at every place we wanted and with perfection. They are the best in what they do, and there is no doubt they will achieve a lot. I highly recommend anyone to hire them.",
+  // },
+  // {
+  //   name: "Michael Thompson",
+  //   comment:
+  //     "Working with this team has been a transformative experience. Their attention to detail and commitment to quality is unmatched. Every project has been delivered on time and has exceeded our expectations. I wholeheartedly endorse their services to anyone in need of expertise.",
+  // },
+  // {
+  //   name: "Ava Patel",
+  //   comment:
+  //     "From start to finish, the professionalism and skill demonstrated by this team were nothing short of impressive. They have a remarkable ability to adapt to challenges and deliver solutions that truly meet our needs. I will definitely be collaborating with them again in the future.",
+  // },
+  // {
+  //   name: "Liam Chen",
+  //   comment:
+  //     "The level of service and dedication from this team is extraordinary. They take the time to understand our requirements and ensure that every aspect is covered. Their work has significantly improved our operations, and I am grateful for their contributions.",
+  // },
 ];
 
 export default function Partners() {
@@ -95,10 +95,9 @@ export default function Partners() {
           </h1>
         </div>
 
-        {/* Carousel with vertical orientation */}
         <div className="relative lg:px-16 px-5">
           <Carousel
-            setApi={setApi} // Get the API instance
+            setApi={setApi} 
             opts={{
               align: "start",
               loop: true,

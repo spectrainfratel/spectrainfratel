@@ -28,7 +28,7 @@ export default function Partners() {
 
   return (
     <div className="w-full h-auto p-7 flex flex-col items-center justify-center bg-white">
-      <h2 className="text-4xl font-semibold mb-4 ">Trusted by 10+ companies</h2>
+      <h2 className="text-4xl font-semibold mb-4 ">Trusted by 9+ companies</h2>
       <div className="container mx-auto mt-6 grid grid-cols-2 md:grid-cols-5 gap-4 items-center">
         {isLoading
           ? Array.from({ length: 5 }).map((_, index) => (
