@@ -8,7 +8,6 @@ import { MapPin, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
-  const [email, setEmail] = useState("");
 
   const handleSubscribe = () => {
     console.log(`Subscribed with email: ${email}`);
@@ -21,9 +20,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-3">
-              Spectra Infratel
-            </h3>
             <h3 className="text-lg font-semibold text-white mb-3">
               Spectra Infratel
             </h3>
@@ -41,12 +37,9 @@ export default function Footer() {
               <Button onClick={handleSubscribe}>Subscribe</Button>
             </div>
           </div>
-    
+
           {/* Column 2 */}
           <div>
-            <h4 className="text-md font-semibold text-white mb-3">
-              Quick Links
-            </h4>
             <h4 className="text-md font-semibold text-white mb-3">
               Quick Links
             </h4>
@@ -76,38 +69,13 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link href="/" className="hover:text-white transition">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-white transition">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="/portfolio" className="hover:text-white transition">
-                  Portfolio
-                </Link>
-              </li>
-              <li>
-                <Link href="/career" className="hover:text-white transition">
-                  Career
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-white transition">
-                  Contact
-                </Link>
-              </li>
             </ul>
           </div>
 
-          {/* Column 3 (Two side-by-side office sections) */}
+          {/* Column 3 */}
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Left side: Registered + Contact */}
+              {/* Registered Office */}
               <div>
                 <h4 className="text-md font-semibold text-white mb-3 border-b border-gray-700 pb-1">
                   Registered Office
@@ -136,7 +104,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              {/* Right side: Corporate + Canada */}
+              {/* Corporate & Canada Office */}
               <div>
                 <h4 className="text-md font-semibold text-white mb-3 border-b border-gray-700 pb-1">
                   Corporate Office
@@ -171,7 +139,9 @@ export default function Footer() {
         <Separator className="my-6 bg-gray-700" />
 
         <div className="flex flex-col sm:flex-row justify-between text-xs text-gray-500 gap-2">
-          <p>© {new Date().getFullYear()} Spectra Infratel. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Spectra Infratel. All rights reserved.
+          </p>
           <p>
             Built with ❤️ by{" "}
             <Link href="https://www.koadai.com" className="hover:text-cyan-400">
@@ -182,5 +152,5 @@ export default function Footer() {
       </div>
     </footer>
   );
-  );
 }
+ 
