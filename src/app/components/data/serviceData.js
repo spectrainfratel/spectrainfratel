@@ -1,69 +1,86 @@
 const serviceData = [
     {
       id: 1,
-      title: "Web Design",
-      description: "Modern and responsive designs tailored for your brand.",
-      image: "/assets/service1.jpg",
-      features: [
-        "Responsive layouts",
-        "Custom designs",
-        "SEO-friendly structure"
+      title: "Turnkey Telecom Site Development",
+      description: ["•Fiber Network Rollout (Urban, Rural)",
+        "•Micro-trenching, Direct Bury & HDD Projects",
+        "•AMC Contracts & Preventive Maintenance",
+        "•Civil Projects: Room construction, DG & Shelter setup",
+        "•Electrical Cabling & Panel Installations",
+        "•HDD Works for OFC, Gas Pipe & Copper Cable",
+        "     EV Charger Installation (DC/AC)"
       ],
+      image: "/assets/service1.jpg",
+      
     },
     {
       id: 2,
-      title: "E-Commerce",
-      description: "High-converting online stores with full management systems.",
-      image: "/assets/service1.jpg",
-      features: [
-        "Secure payment gateways",
-        "User-friendly interface",
-        "Inventory management"
+      title: "Turnkey Telecom Site Development",
+      description: ["•Fiber Network Rollout (Urban, Rural)",
+        "•Micro-trenching, Direct Bury & HDD Projects",
+        "•AMC Contracts & Preventive Maintenance",
+        "•Civil Projects: Room construction, DG & Shelter setup",
+        "•Electrical Cabling & Panel Installations",
+        "•HDD Works for OFC, Gas Pipe & Copper Cable",
+        "     EV Charger Installation (DC/AC)"
       ],
+      image: "/assets/service1.jpg",
+      
     },
     {
       id: 3,
-      title: "Branding",
-      description: "Logo, identity, and visual storytelling that stands out.",
-      image: "/assets/service1.jpg",
-      features: [
-        "Unique logo design",
-        "Brand guidelines",
-        "Visual storytelling"
+      title: "Turnkey Telecom Site Development",
+      description: ["•Fiber Network Rollout (Urban, Rural)",
+        "•Micro-trenching, Direct Bury & HDD Projects",
+        "•AMC Contracts & Preventive Maintenance",
+        "•Civil Projects: Room construction, DG & Shelter setup",
+        "•Electrical Cabling & Panel Installations",
+        "•HDD Works for OFC, Gas Pipe & Copper Cable",
+        "     EV Charger Installation (DC/AC)"
       ],
+      image: "/assets/service1.jpg",
+      
     },
     {
       id: 4,
-      title: "Digital Marketing",
-      description: "Strategies to boost your online presence and engagement.",
-      image: "/assets/service1.jpg",
-      features: [
-        "Social media campaigns",
-        "Email marketing",
-        "Content creation"
+      title: "Turnkey Telecom Site Development",
+      description: ["•Fiber Network Rollout (Urban, Rural)",
+        "•Micro-trenching, Direct Bury & HDD Projects",
+        "•AMC Contracts & Preventive Maintenance",
+        "•Civil Projects: Room construction, DG & Shelter setup",
+        "•Electrical Cabling & Panel Installations",
+        "•HDD Works for OFC, Gas Pipe & Copper Cable",
+        "     EV Charger Installation (DC/AC)"
       ],
+      image: "/assets/service1.jpg",
+      
     },
     {
       id: 5,
-      title: "App Development",
-      description: "Custom mobile and web applications for your business needs.",
-      image: "/assets/service1.jpg",
-      features: [
-        "Cross-platform apps",
-        "User-friendly design",
-        "Scalable architecture"
+      title: "Turnkey Telecom Site Development",
+      description: ["•Fiber Network Rollout (Urban, Rural)",
+        "•Micro-trenching, Direct Bury & HDD Projects",
+        "•AMC Contracts & Preventive Maintenance",
+        "•Civil Projects: Room construction, DG & Shelter setup",
+        "•Electrical Cabling & Panel Installations",
+        "•HDD Works for OFC, Gas Pipe & Copper Cable",
+        "     EV Charger Installation (DC/AC)"
       ],
+      image: "/assets/service1.jpg",
+      
     },
     {
       id: 6,
-      title: "Consulting",
-      description: "Expert advice to help you achieve your business goals.",
-      image: "/assets/service1.jpg",
-      features: [
-        "Business strategy",
-        "Market analysis",
-        "Growth planning"
+      title: "Turnkey Telecom Site Development",
+      description: ["•Fiber Network Rollout (Urban, Rural)",
+        "•Micro-trenching, Direct Bury & HDD Projects",
+        "•AMC Contracts & Preventive Maintenance",
+        "•Civil Projects: Room construction, DG & Shelter setup",
+        "•Electrical Cabling & Panel Installations",
+        "•HDD Works for OFC, Gas Pipe & Copper Cable",
+        "     EV Charger Installation (DC/AC)"
       ],
+      image: "/assets/service1.jpg",
     },
   ];
   

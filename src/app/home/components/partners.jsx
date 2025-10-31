@@ -4,21 +4,24 @@ import Image from "next/image";
 import { Skeleton } from "@/components/ui/skeleton";
 
 const companies = [
-  { name: "Company 1", logo: "/assets/client1.png" },
-  { name: "Company 2", logo: "/assets/client2.png" },
-  { name: "Company 3", logo: "/assets/client3.png" },
-  { name: "Company 4", logo: "/assets/client4.png" },
-  { name: "Company 5", logo: "/assets/client5.png" },
+  { name: "Company 1", logo: "/assets/cl1.png" },
+  { name: "Company 2", logo: "/assets/cl2.png" },
+  { name: "Company 3", logo: "/assets/cl3.png" },
+  { name: "Company 4", logo: "/assets/cl4.png" },
+  { name: "Company 5", logo: "/assets/cl5.png" },
+  { name: "Company 6", logo: "/assets/cl6.png" },
+  { name: "Company 7", logo: "/assets/cl7.png" },
+  { name: "Company 8", logo: "/assets/cl8.png" },
+  { name: "Company 9", logo: "/assets/cl9.png" },
 ];
 
 export default function Partners() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // simulate async loading (e.g., fetching from API)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 800); // show skeleton for 2 seconds
+    }, 800); 
 
     return () => clearTimeout(timer);
   }, []);

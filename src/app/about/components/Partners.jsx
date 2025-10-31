@@ -11,9 +11,9 @@ import TeamOfExperts from "./TeamOfExperts";
 
 const partners = [
   {
-    name: "Priay Singhania",
+    name: "MITIR H KOTAK",
     comment:
-      "The team has done an excellent job, in helping us set our fiber station at every place we wanted and with perfection. They are the best in what they do, and there is no doubt they will achieve a lot. I highly recommend anyone to hire them.",
+      "We happy with Bhargav and his team for the promptness... keep it up",
   },
   {
     name: "Michael Thompson",

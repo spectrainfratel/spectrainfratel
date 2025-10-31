@@ -3,24 +3,41 @@ import React from "react";
 
 const reasons = [
   {
-    title: "Guaranteed Uptime",
-    description:
-      "We specialize in critical power infrastructure, installing SMPS, Battery Banks, and DG (Diesel Generators). T",
+    title: "End-to-End Project Expertise",
+    description:[
+      "From concept and design to installation, commissioning, and maintenance ",
+      "— we manage every stage with precision and accountability. You get one trusted partner for your entire project lifecycle."
+    ],
   },
   {
-    title: "Guaranteed Uptime",
+    title: "Proven Track Record",
     description:
-      "We specialize in critical power infrastructure, installing SMPS, Battery Banks, and DG (Diesel Generators). T",
+      "With successful executions across challenging sites, Spectra Infratel has built a strong reputation for reliability, innovation, and long-term client satisfaction in both telecom and EV infrastructure sectors."
   },
   {
-    title: "Guaranteed Uptime",
+    title: "Skilled & Dedicated Team",
     description:
-      "We specialize in critical power infrastructure, installing SMPS, Battery Banks, and DG (Diesel Generators). T",
+      "Our team includes qualified engineers, project managers, and field professionals with years of on-site experience. Their focus on safety, efficiency, and compliance ensures seamless operations at every level.",
   },
   {
-    title: "Guaranteed Uptime",
+    title: "Quality & Compliance First",
     description:
-      "We specialize in critical power infrastructure, installing SMPS, Battery Banks, and DG (Diesel Generators). T",
+      "We adhere to strict industry standards and safety protocols, ensuring all our installations meet the highest benchmarks in performance, durability, and sustainability",
+  },
+  {
+    title: "Sustainable & Future-Ready Solutions",
+    description:
+      "As India transitions toward cleaner and smarter mobility, Spectra Infratel leads the way with EV charging solutions and infrastructure that support the nation’s green future.",
+  },
+  {
+    title: "Timely Delivery, Every Time",
+    description:
+      "We understand the importance of deadlines. Our project management systems and on-ground teams ensure that every project is completed on schedule and within budget."
+  },
+  {
+    title: "Trusted by Leading Clients",
+    description:
+      "Our growing portfolio of telecom and EV charging installations reflects the trust leading organizations place in Spectra Infratel’s quality and commitment."
   },
 ];
 
