@@ -20,7 +20,7 @@ export default function CommonBanner({
           {description}
         </p>
         {/* this is the button */}
-        <Link href={buttonLink} className="w-fit" legacyBehavior>
+        <Link href={buttonLink} className="w-fit">
           <div className="border border-white rounded-3xl flex w-auto gap-3 items-center hover:bg-white hover:text-[#001020] transition-colors cursor-pointer">
             <span className="px-5 py-3">{buttonText}</span>
             <div className="icon-div bg-white px-5 py-3 rounded-r-3xl">
@@ -31,7 +31,7 @@ export default function CommonBanner({
         {/* the button ends here */}
       </div>
       {/* Revamped Image Container */}
-      <div className="absolute -top-1/4 -right-1/4 w-[600px] h-[600px] md:w-[800px] md:h-[800px] lg:w-[1000px] lg:h-[1000px]  rotate-[80deg] transition-all duration-500">
+      <div className="absolute  -top-1/4 -right-1/4 hidden md:block  lg:w-[700px] lg:h-[900px] 2xl:w-[1000px] 2xl:h-[1000px]  rotate-[80deg] transition-all duration-500">
         <Image
           src={imgsrc || "/assets/human.png"}
           alt="Tower Image"

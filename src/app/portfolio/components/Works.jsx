@@ -47,19 +47,19 @@ export default function Works() {
   return (
     <div className="p-5">
       <div className="flex flex-row items-center gap-3 md:gap-5 mb-6 md:mb-8">
-        <div className="h-12 lg:h-40 md:h-16 w-1 bg-gradient-to-t from-[#0D50A7] to-[#02C5FD]" />
+        <div className="md:h-24 sm:h-10 h-16 lg:h-40  w-1 bg-gradient-to-t from-[#0D50A7] to-[#02C5FD]" />
         <h1 className="text-3xl md:text-5xl lg:text-7xl font-extrabold max-w-2xl">
           Premium works for premium users
         </h1>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-6 p-5">
           {works.map((work, index) => (
             <div
               key={index}
               className="flex flex-col gap-5 items-center justify-centeroverflow-hidden"
             >
-              <div className="bg-[#146CBB1A] w-full h-full px-10 p-5 relative flex items-center justify-center rounded-xl">
+              <div className="bg-[#146CBB1A] w-full h-full px-10 p-5 relative flex items-center justify-center">
                 <Image
                   src={work.img}
                   alt={`work ${index}`}
@@ -69,7 +69,7 @@ export default function Works() {
                 />
               </div>
 
-              <div className=" w-full pl-7">
+              <div className=" w-full">
                 <h2 className="text-2xl font-semibold">Site - {work.site}</h2>
                 <p className="text-sm">Project Time - {work.time}</p>
               </div>
