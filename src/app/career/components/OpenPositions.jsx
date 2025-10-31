@@ -34,12 +34,13 @@ export default function OpenPositions() {
                 We are the best in what we do
               </span>
               <p className="text-gray-700 text-sm mt-1">
-                Exposure to the entire telecom lifecycle: You won{"'"}t be
+                {/* Exposure to the entire telecom lifecycle: You won{"'"}t be
                 siloed into just one task. You{"'"}ll gain valuable,
                 well-rounded experience working across multiple revenue-impact
                 processes (site acquisition, civil engineering, passive/active
                 build, network solutions, BMS & battery banks, and beyond). This
-                holistic experience makes you highly marketable.
+                holistic experience makes you highly marketable. */}
+                At Spectra Infratel you'll immerse yourself across the full telecom lifecycle — not confined to one narrow task, but working on site-acquisition, civil engineering, passive/active build, network solutions, BMS & battery systems, fibre infrastructure and more. This breadth of exposure makes you a standout professional in the field.
               </p>
             </div>
           </div>
@@ -51,11 +52,17 @@ export default function OpenPositions() {
                 Innovative Solutions for Modern Challenges
               </span>
               <p className="text-gray-700 text-sm mt-1">
-                Our team leverages cutting-edge technology and creative
+                {/* Our team leverages cutting-edge technology and creative
                 problem-solving to address today{"'"}s most pressing telecom
                 issues. You will be part of a dynamic environment that
                 encourages innovation and the pursuit of excellence, ensuring
-                that your ideas can flourish and make a real impact.
+                that your ideas can flourish and make a real impact. */}
+                At Spectra Infratel, innovation drives everything we do. 
+                We combine cutting-edge technology with practical telecom 
+                expertise to design solutions that meet today's complex
+                 infrastructure demands.From advanced network design to 
+                 smart energy systems, our focus is on building scalable,
+                  future-ready solutions that shape the modern digital landscape.
               </p>
             </div>
           </div>
@@ -67,11 +74,16 @@ export default function OpenPositions() {
                 Commitment to Professional Development
               </span>
               <p className="text-gray-700 text-sm mt-1">
-                We believe in investing in our talent. Through continuous
+                {/* We believe in investing in our talent. Through continuous
                 training, mentorship, and support, we empower you to advance
                 your skills and career. Join workshops, pursue certifications,
                 and develop leadership qualities as part of a team dedicated to
-                helping you reach your potential.
+                helping you reach your potential. */}
+                We believe that our people are our greatest investment. 
+                Through continuous learning programs, hands-on field exposure, 
+                and mentorship from industry leaders, we ensure every team member
+                 grows both technically and professionally. Your career here is not 
+                 just a job — it’s a journey of growth, skill enhancement, and leadership development.
               </p>
             </div>
           </div>
@@ -83,11 +95,15 @@ export default function OpenPositions() {
                 Collaborative Team Culture
               </span>
               <p className="text-gray-700 text-sm mt-1">
-                Our inclusive and collaborative work culture fosters teamwork
+                {/* Our inclusive and collaborative work culture fosters teamwork
                 and open communication. You{"'"}ll routinely engage with peers
                 and senior managers, feel welcomed, and belong to a supportive
                 environment where every contribution is valued and everyone
-                contributes to the success of the project.
+                contributes to the success of the project. */}
+                Collaboration is at the heart of our success. We foster an environment
+                 where ideas are shared openly, teamwork thrives, and every contribution matters.
+                  Whether in the office or on-site, our teams work together with mutual respect
+                   and shared goals to deliver excellence and innovation at every step.
               </p>
             </div>
           </div>

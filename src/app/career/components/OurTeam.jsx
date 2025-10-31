@@ -6,25 +6,25 @@ const positions = [
     title: "Communications and HR Team",
     location: "Ahmedabad, Gujrat",
     description:
-      "If you are a person who loves to manage the team and bring out the best in them, then we are more than happy to have you on board.",
+      "The bridge between people and purpose. Our HR team nurtures talent, builds a positive culture, and ensures smooth communication across the organization.",
   },
   {
     title: "Software Development",
     location: "Bangalore, Karnataka",
     description:
-      "Join our innovative software team where your coding skills can make a difference in developing cutting-edge applications.",
+      "Driving digital transformation at Spectra Infratel. Our developers create smart tools and systems that power efficiency, automation, and innovation.",
   },
   {
     title: "Marketing and Sales",
     location: "Pune, Maharashtra",
     description:
-      "Are you passionate about driving sales and creating marketing strategies? We want you to help us reach new heights!",
+      "Connecting Spectra Infratel to the world. This team crafts strategies, builds client relationships, and fuels our business growth.",
   },
   {
     title: "Customer Support",
     location: "Mumbai, Maharashtra",
     description:
-      "If you enjoy solving problems and helping customers, our dynamic support team would love to welcome you!",
+      "Dedicated to service excellence. Our support team ensures every client receives quick responses, reliable assistance, and long-term satisfaction.",
   },
 ];
 

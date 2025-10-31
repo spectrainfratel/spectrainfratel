@@ -8,6 +8,7 @@ import { MapPin, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleSubscribe = () => {
     console.log(`Subscribed with email: ${email}`);
@@ -20,6 +21,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 */}
           <div>
+            <h3 className="text-lg font-semibold text-white mb-3">
+              Spectra Infratel
+            </h3>
             <h3 className="text-lg font-semibold text-white mb-3">
               Spectra Infratel
             </h3>
@@ -37,13 +41,41 @@ export default function Footer() {
               <Button onClick={handleSubscribe}>Subscribe</Button>
             </div>
           </div>
-
+    
           {/* Column 2 */}
           <div>
             <h4 className="text-md font-semibold text-white mb-3">
               Quick Links
             </h4>
+            <h4 className="text-md font-semibold text-white mb-3">
+              Quick Links
+            </h4>
             <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/" className="hover:text-white transition">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="hover:text-white transition">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/portfolio" className="hover:text-white transition">
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link href="/career" className="hover:text-white transition">
+                  Career
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-white transition">
+                  Contact
+                </Link>
+              </li>
               <li>
                 <Link href="/" className="hover:text-white transition">
                   Home
@@ -149,5 +181,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+  );
   );
 }
