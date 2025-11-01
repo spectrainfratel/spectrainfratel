@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './home/page';
 
-function page() {
+function Page() {
   return (
     <>
      <Home/>
@@ -11,4 +11,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
