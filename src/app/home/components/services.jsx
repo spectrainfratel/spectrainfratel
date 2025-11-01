@@ -12,7 +12,7 @@ export default function Services() {
   return (
     <>
       <div className="p-5 sm:p-7 lg:p-10">
-        <div className="relative w-full service-upper flex flex-col md:flex-row justify-start items-start">
+        <div className="relative w-full service-upper flex flex-row justify-start items-start my-2">
           <div className="h-12 w-1 bg-gradient-to-t from-[#0D50A7] to-[#02C5FD]" />
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold my-2 pl-2">
             Services
