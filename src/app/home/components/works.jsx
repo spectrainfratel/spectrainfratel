@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Works() {
   const images = [
-    "/assets/work1.png",
-    "/assets/work2.png",
-    "/assets/work3.png",
-    "/assets/work4.png",
-    "/assets/work5.png",
-    "/assets/work6.png",
+    "/assets/wk1.png",
+    "/assets/wk2.png",
+    "/assets/wk3.png",
+    "/assets/wk4.png",
+    "/assets/wk5.png",
+    "/assets/wk6.png",
   ];
 
   return (

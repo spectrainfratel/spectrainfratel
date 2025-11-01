@@ -15,7 +15,6 @@ export default function Banner() {
           optics to 5G towers—to deliver the world's most reliable and advanced
           connectivity.
         </p>
-        {/* this is the button */}
         <Link href="/contact" className="w-fit">
           <div className="border border-white rounded-3xl flex w-auto gap-3 items-center hover:bg-white hover:text-[#001020] transition-colors cursor-pointer">
             <span className="px-5 py-3">Find out more</span>
@@ -24,7 +23,6 @@ export default function Banner() {
             </div>
           </div>
         </Link>
-        {/* the button ends here */}
       </div>
       <div className="right-banner hidden absolute w-1/2 h-[1200px] bg-[#D7E9C9] right-[-100px] top-0 -skew-x-20 sm:hidden md:hidden lg:block"></div>
       <div className="absolute hidden sm:hidden md:hidden lg:block right-60 bottom-[-80px] h-auto lg:h-[200px] lg:top-[100px] lg:right-[200px]">
@@ -37,7 +35,7 @@ export default function Banner() {
       </div>
       <div className="absolute hidden sm:hidden md:hidden lg:block right-0 bottom-[-200px] h-auto lg:h-[200px] lg:top-[0px] lg:right-[-100px]">
         <Image
-          src="/assets/human.png"
+          src="/assets/lb.png"
           alt="Tower Image"
           width={700}
           height={600}

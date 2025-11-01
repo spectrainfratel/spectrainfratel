@@ -41,7 +41,7 @@ export default function CEO() {
         <div className="ceo-space h-full bg-[url('/assets/ceobg.jpg')] bg-cover bg-center flex items-end justify-center">
           <div className="image-div overflow-hidden w-full flex justify-center items-center bg-[linear-gradient(135deg,_rgba(13,80,167,0.8),_rgba(2,197,253,0.8))] relative">
             <Image
-              src="/assets/jiteshh.png"
+              src="/assets/ceoPic.png"
               alt="ceo"
               width={400}
               height={200}

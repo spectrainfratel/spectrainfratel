@@ -104,7 +104,7 @@ const serviceData = [
     description: [
       "• Fiber Network Rollout (Urban, Rural)",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img1.png",
     features: [
       "End-to-end fiber deployment management",
       "Urban and rural network expansion",
@@ -118,7 +118,7 @@ const serviceData = [
     description: [
       "• Micro-trenching, Direct Bury & HDD Projects",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img2.png",
     features: [
       "Trenching and duct installation expertise",
       "Horizontal directional drilling (HDD) services",
@@ -132,7 +132,7 @@ const serviceData = [
     description: [
       "• AMC Contracts & Preventive Maintenance",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img3.png",
     features: [
       "Comprehensive annual maintenance contracts (AMC)",
       "Scheduled preventive maintenance visits",
@@ -146,7 +146,7 @@ const serviceData = [
     description: [
       "• Civil Projects: Room construction, DG & Shelter setup",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img4.png",
     features: [
       "Telecom equipment room construction",
       "Diesel generator (DG) and shelter setup",
@@ -160,7 +160,7 @@ const serviceData = [
     description: [
       "• Electrical Cabling & Panel Installations",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img5.png",
     features: [
       "Complete electrical wiring and cabling solutions",
       "Control panel design and installation",
@@ -175,7 +175,7 @@ const serviceData = [
       "• HDD Works for OFC, Gas Pipe & Copper Cable",
       "• EV Charger Installation (DC/AC)",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img6.png",
     features: [
       "Specialized HDD for fiber, gas, and copper projects",
       "EV charger (DC fast & AC) supply and installation",
@@ -189,7 +189,7 @@ const serviceData = [
     description: [
       "• EV Charger Installation (DC/AC)",
     ],
-    image: "/assets/service1.jpg",
+    image: "/assets/img7.png",
     features: [
       "AC and DC charger setup for public and private stations",
       "Integration with smart metering and energy management",
