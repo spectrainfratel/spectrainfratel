@@ -11,7 +11,7 @@ export default function CommonBanner({
   imgsrc = "",
 }) {
   return (
-    <div className="relative w-full h-[400px] sm:h-[400px] md:h-[700px] lg:h-[700px] overflow-hidden bg-[#001020] text-white bg-cover bg-center flex justify-center items-center px-7 pt-20 sm:pt-40 pb-40">
+    <div className="relative w-full min-h-[400px] sm:min-h-[400px] md:min-h-[700px] lg:min-h-[700px] xl:h-[700px] overflow-hidden bg-[#001020] text-white bg-cover bg-center flex justify-center items-center px-7 pt-20 sm:pt-40 pb-40">
       <div className="left-banner w-full flex flex-col gap-10">
         <h1 className="w-full lg:w-1/2 md:w-full sm:w-full text-3xl sm:text-3xl md:text-6xl lg:text-7xl font-medium text-white">
           {title}

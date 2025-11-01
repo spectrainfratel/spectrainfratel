@@ -31,7 +31,7 @@ export default function ServiceCard({ service }) {
         </div>
         {service.features && service.features.length > 0 && (
           <div className="mt-3 overflow-y-auto max-h-[180px] pr-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-transparent">
-            <h4 className="font-semibold text-gray-900 mb-2">Key Features:</h4>
+            <h4 className="font-semibold text-gray-900 mb-2">Key Features</h4>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-700 space-y-1">
               {service.features.map((feature, index) => (
                 <li key={index}>{feature}</li>
