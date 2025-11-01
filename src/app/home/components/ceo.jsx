@@ -59,7 +59,7 @@ export default function CEO() {
             Why Hire Spectra Infratel
           </h4>
 
-          {/* 👇 Dynamically print hire points */}
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left mt-10">
             {hire.map((item, index) => (
               <div
