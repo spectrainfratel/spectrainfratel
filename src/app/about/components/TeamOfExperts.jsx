@@ -6,7 +6,7 @@ export default function TeamOfExperts() {
     {
       name: "Jignesh Patel",
       designation: "CEO",
-      img: "/assets/Jitesh.jpg",
+      img: "/assets/jitesh.jpg",
     },
     // {
     //   name: "Bhargav Patel",
