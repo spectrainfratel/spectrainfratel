@@ -8,11 +8,11 @@ export default function TeamOfExperts() {
       designation: "CEO",
       img: "/assets/jitesh.jpg",
     },
-    // {
-    //   name: "Bhargav Patel",
-    //   designation: "Partner",
-    //   img: "/assets/aboutPage/patners/BhargavPatel.jpg",
-    // },
+    {
+      name: "Bhargav Patel",
+      designation: "Partner",
+      img: "/assets/aboutPage/patners/raju.jpg",
+    },
     {
       name: "Prayosha Patel",
       designation: "Partner",
@@ -21,7 +21,7 @@ export default function TeamOfExperts() {
     {
       name: "Raju Mudaliar",
       designation: "Supply and Collection",
-      img: "/assets/aboutPage/patners/raju.jpg",
+      img: "/assets/aboutPage/patners/rajuuu.jpg",
     },
   ];
 
