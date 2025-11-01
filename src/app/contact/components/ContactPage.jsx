@@ -1,6 +1,8 @@
 "use client";
+
 import Image from "next/image";
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -16,13 +18,32 @@ export default function ContactPage() {
     setFormData({ ...formData, [id]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const message = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
-    const whatsappURL = `https://wa.me/918016096294?text=${encodeURIComponent(
-      message
-    )}`;
-    window.open(whatsappURL, "_blank");
+    try {
+      await emailjs.send(
+        "service_frtrgpn", // replace with your EmailJS service ID
+        "template_xgqp0cf", // replace with your EmailJS template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "n-bn7FTW0xin69Jxz" // replace with your EmailJS public key
+      );
+      alert("Message sent successfully!");
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      alert("Failed to send message. Please try again later.");
+    }
   };
 
   return (
