@@ -20,10 +20,7 @@ export default function Works() {
           </h2>
         </div>
         <p className="text-sm md:text-base lg:text-lg w-full md:w-3/4 lg:w-1/2 text-gray-600 italic">
-          Spectra Infratel provides end-to-end, Turnkey Telecommunications
-          Infrastructure services, which means they handle the entire process of
-          building and maintaining mobile and fiber optic networks for carriers
-          and large enterprises.
+          Spectra Infratel delivers complete turnkey telecom infrastructure — from design to maintenance of mobile and fiber networks.
         </p>
       </div>
       <div className="works-container w-full h-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
