@@ -5,7 +5,7 @@ export default function TeamOfExperts() {
   const partners = [
     {
       name: "Jignesh Patel",
-      designation: "CEO",
+      designation: "Managing partner",
       img: "/assets/jitesh.jpg",
     },
     {

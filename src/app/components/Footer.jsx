@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { MapPin, Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -72,14 +73,24 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 */}
+          {/* Column 3 – Offices */}
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Registered Office */}
+              {/* Registered Office (India) */}
               <div>
-                <h4 className="text-md font-semibold text-white mb-3 border-b border-gray-700 pb-1">
-                  Registered Office
-                </h4>
+                <div className="flex items-center gap-2 mb-3">
+                  <Image
+                    src="/assets/flags/india.jpg"
+                    alt="India Flag"
+                    width={22}
+                    height={22}
+                    className=""
+                  />
+                  <h4 className="text-md font-semibold text-white border-b border-gray-700 pb-1">
+                    Registered Office
+                  </h4>
+                </div>
+
                 <div className="flex items-start gap-2 mb-4 text-sm text-gray-400">
                   <MapPin className="w-4 h-4 text-cyan-400 mt-0.5" />
                   <p>2, Shreedhar Baug, Nikol, Ahmedabad – 380049</p>
@@ -104,19 +115,38 @@ export default function Footer() {
                 </div>
               </div>
 
-              {/* Corporate & Canada Office */}
+              {/* Corporate (India) & Canada Office */}
               <div>
-                <h4 className="text-md font-semibold text-white mb-3 border-b border-gray-700 pb-1">
-                  Corporate Office
-                </h4>
+                <div className="flex items-center gap-2 mb-3">
+                  <Image
+                    src="/assets/flags/india.jpg" 
+                    alt="India Flag"
+                    width={22}
+                    height={22}
+                    className=""
+                  />
+                  <h4 className="text-md font-semibold text-white border-b border-gray-700 pb-1">
+                    Corporate Office
+                  </h4>
+                </div>
+
                 <div className="flex items-start gap-2 mb-4 text-sm text-gray-400">
                   <MapPin className="w-4 h-4 text-cyan-400 mt-0.5" />
                   <p>510, Naroda Business HUB, Ahmedabad – 382350</p>
                 </div>
 
-                <h4 className="text-md font-semibold text-white mb-3 border-b border-gray-700 pb-1">
-                  Canada Office
-                </h4>
+                <div className="flex items-center gap-2 mb-3">
+                  <Image
+                    src="/assets/flags/canadaflag.jpg" 
+                    alt="Canada Flag"
+                    width={22}
+                    height={22}
+                  />
+                  <h4 className="text-md font-semibold text-white border-b border-gray-700 pb-1">
+                    Canada Office
+                  </h4>
+                </div>
+
                 <div className="space-y-1 text-sm text-gray-400">
                   <div className="flex items-start gap-2">
                     <MapPin className="w-4 h-4 text-cyan-400 mt-0.5" />
@@ -153,4 +183,3 @@ export default function Footer() {
     </footer>
   );
 }
- 

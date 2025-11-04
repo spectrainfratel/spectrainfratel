@@ -57,7 +57,7 @@ export default function About() {
         {/* Right Container (Text) */}
         <div className="right-container order-1 lg:order-2 md:order-2 sm:order-1 w-full md:w-full lg:w-1/2 my-auto h-full flex justify-center items-end sm:items-end md:items-center lg:items-center px-5 py-10">
           <p className="italic text-sm sm:text-base text-center leading-relaxed">
-            Spectra Infratel is a recently registered Partnership Company, however, the Partners and the team have more than 5 to 17 years of experience in Telecom Infra Projects and Services Field.
+            Spectra Infratel is a registered partnership firm. Our partners and team members bring extensive experience ranging 17 years in the Telecom Infrastructure Projects, Evs and Services sector.
           </p>
         </div>
       </div>
