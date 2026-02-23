@@ -78,7 +78,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 – Offices */}
+         
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Registered Office (India) */}
