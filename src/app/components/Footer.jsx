@@ -70,6 +70,11 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link href="/terms-and-conditions" className="hover:text-white transition">
+                  Terms & Conditions
+                </Link>
+              </li>
             </ul>
           </div>
 
