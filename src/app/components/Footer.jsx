@@ -71,13 +71,24 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/terms-and-conditions" className="hover:text-white transition">
+                <Link
+                  href="/return-and-refund-policy"
+                  className="hover:text-white transition"
+                >
+                  Return & Refund Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms-and-conditions"
+                  className="hover:text-white transition"
+                >
                   Terms & Conditions
                 </Link>
               </li>
             </ul>
           </div>
-         
+
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Registered Office (India) */}
@@ -123,7 +134,7 @@ export default function Footer() {
               <div>
                 <div className="flex items-center gap-2 mb-3">
                   <Image
-                    src="/assets/flags/india.jpg" 
+                    src="/assets/flags/india.jpg"
                     alt="India Flag"
                     width={22}
                     height={22}
@@ -141,7 +152,7 @@ export default function Footer() {
 
                 <div className="flex items-center gap-2 mb-3">
                   <Image
-                    src="/assets/flags/canadaflag.jpg" 
+                    src="/assets/flags/canadaflag.jpg"
                     alt="Canada Flag"
                     width={22}
                     height={22}
