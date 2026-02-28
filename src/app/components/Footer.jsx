@@ -75,7 +75,7 @@ export default function Footer() {
                   href="/return-and-refund-policy"
                   className="hover:text-white transition"
                 >
-                  Return & Refund Policy
+                  Return & Refund Policy 
                 </Link>
               </li>
               <li>
