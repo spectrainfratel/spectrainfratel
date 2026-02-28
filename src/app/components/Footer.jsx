@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -75,7 +75,7 @@ export default function Footer() {
                   href="/return-and-refund-policy"
                   className="hover:text-white transition"
                 >
-                  Return & Refund Policy 
+                  Return & Refund Policy
                 </Link>
               </li>
               <li>
